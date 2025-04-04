@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>¿Cómo se trabaja la Realidad Aumentada en Unity? | Trabajo en Realidad Aumentada del Mapa de Europa </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Jesús Manuel Bernal Otero" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 Portable - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Trabajo en Realidad Aumentada del Mapa de Europa</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Trabajo en Realidad Aumentada en Unity: Mapa de Monumentos Europeo</a></li>
+   <li><a href="cmo_funciona_la_realidad_aumentada.html" class="no-ch">¿Cómo funciona la Realidad Aumentada?</a></li>
+   <li id="active"><a href="cmo_se_trabaja_la_realidad_aumentada_en_unity.html" class="active no-ch">¿Cómo se trabaja la Realidad Aumentada en Unity?</a></li>
+   <li><a href="cmo_se_debe_realizar_este_trabajo.html" class="no-ch">¿Cómo se debe realizar este trabajo?</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="cmo_funciona_la_realidad_aumentada.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cmo_se_debe_realizar_este_trabajo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">¿Cómo se trabaja la Realidad Aumentada en Unity?</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id2">
+<div class="iDevice emphasis0" >
+<div id="ta2_129_2" class="block iDevice_content">
+<div class="exe-text"><p>Unity es un motor de desarrollo muy utilizado para la creación de aplicaciones de RA debido a su flexibilidad, facilidad de uso y compatibilidad con diversas plataformas. Al trabajar en Unity con RA, se deben seguir varios pasos técnicos y de configuración para que la experiencia de RA sea efectiva y fluida. A continuación se detallan los pasos fundamentales para trabajar en un proyecto de RA en Unity:<br /><br /><iframe width="560" height="314" src="https://www.youtube.com/embed/6Ss_SSvLJgw" allowfullscreen="allowfullscreen"></iframe><br /><br /></p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id3">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Pasos para trabajar la Realidad Aumentada en Unity</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta3_130_2" class="block iDevice_content">
+<div class="exe-text"><p><strong>Instalación de Unity:</strong> Antes de comenzar a desarrollar con Unity, es necesario instalar la última versión del software. Unity es un motor de desarrollo gratuito, y puedes obtenerlo desde su sitio web oficial. La versión más reciente incluye todas las actualizaciones y optimizaciones necesarias para trabajar con aplicaciones de RA.<br /><br /><strong>Instalación de AR Foundation:</strong> Unity ofrece un conjunto de herramientas llamado AR Foundation, que facilita el desarrollo de aplicaciones de RA para diferentes plataformas, como ARKit (para dispositivos iOS) y ARCore (para dispositivos Android). Este paquete de Unity proporciona todos los componentes necesarios para integrar funcionalidades de RA en las aplicaciones.</p>
+<p><em><strong>Para instalar AR Foundation, abre el "Package Manager" en Unity (ventana &gt; Package Manager).</strong></em><br /><em><strong>Busca "AR Foundation" y, según la plataforma objetivo, instala el "ARKit XR Plugin" para iOS o el "ARCore XR Plugin" para Android.</strong></em><br /><br /><strong>Configuración del Proyecto:</strong> Una vez que Unity y AR Foundation estén instalados, crea un nuevo proyecto en Unity. Es recomendable elegir una plantilla 3D al crear el proyecto, ya que la RA generalmente involucra la manipulación de objetos en 3D. A continuación, se deben activar las opciones necesarias para soportar la RA:</p>
+<p><em><strong>Dirígete a “Edit &gt; Project Settings &gt; XR Plug-in Management” y activa la opción para habilitar la RA en la plataforma seleccionada (ARKit o ARCore).</strong></em><br /><br /><strong>Creación de la Escena:</strong></p>
+<p><strong>AR Session:</strong> Este componente es esencial para gestionar la experiencia de RA. Controla el ciclo de vida de la sesión de RA, desde el inicio hasta la finalización.<br /><strong>AR Session Origin:</strong> Se encarga de la ubicación y la escala de los objetos virtuales dentro del mundo real. Asegura que los objetos 3D estén posicionados correctamente respecto al entorno físico.<br /><strong>AR Plane Manager:</strong> Utilizado para detectar superficies planas, como mesas, suelos y paredes, en las que los objetos digitales pueden ser colocados.<br /><strong>AR Raycast Manager:</strong> Permite a los usuarios interactuar con el entorno real tocando la pantalla. Este componente proyecta un rayo desde el punto de toque de la pantalla para determinar la ubicación de los objetos virtuales.<br /><br /><strong>Añadir Contenido 3D:</strong> Una de las partes clave del desarrollo de RA es el contenido digital. Para incluir monumentos en el mapa, es necesario importar modelos 3D de los monumentos seleccionados (por ejemplo, la Torre Eiffel, el Coliseo, la Sagrada Familia, etc.) en el proyecto de Unity. Estos modelos pueden ser descargados de plataformas como Sketchfab, TurboSquid o ser creados en software 3D como Blender.<br /><br /><strong>Interacción con el Usuario:</strong> Utilizando programación en C#, puedes hacer que los usuarios interactúen con los modelos 3D. Un ejemplo básico sería un script que permita colocar los monumentos en el entorno real cuando el usuario toca la pantalla, utilizando raycasting para detectar el lugar exacto donde colocar el objeto.<br /><br /><strong>Pruebas en Dispositivo:</strong> Para verificar que la aplicación funciona correctamente, debes compilarla y ejecutarla en un dispositivo móvil o tableta que sea compatible con RA. No olvides asegurarte de que el dispositivo tenga los permisos necesarios para acceder a la cámara y otros recursos.<br /><br /><strong>Optimización y Publicación:</strong> La optimización es crucial para garantizar que la aplicación de RA funcione de manera eficiente en dispositivos móviles. Asegúrate de reducir la cantidad de polígonos en los modelos 3D y de ajustar la calidad de los gráficos para mantener un buen rendimiento. Cuando todo esté listo, puedes publicar tu aplicación en tiendas como Google Play o la App Store.<br /><br /><a href="https://youtu.be/d5cNISRyVPs?si=BtGGgoa2p5rUjQyZ"><iframe width="560" height="314" src="https://www.youtube.com/embed/d5cNISRyVPs" allowfullscreen="allowfullscreen"></iframe><br /></a></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="cmo_funciona_la_realidad_aumentada.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cmo_se_debe_realizar_este_trabajo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_cedec_js.js"></script></body></html>
